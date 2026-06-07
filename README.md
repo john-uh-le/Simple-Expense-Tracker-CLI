@@ -104,7 +104,7 @@ GET /api/expenses/lowest-category
 
 ## Seed Data
 
-The application includes seed data when it starts, so the API can be tested right away.
+The application includes seed data when it starts
 
 Example seed expenses include:
 
@@ -115,20 +115,6 @@ Food - $18.75 - 2026-06-02
 Entertainment - $40.00 - 2026-06-03
 Bills - $90.00 - 2026-06-04
 ```
-
-This makes it easier to test totals, category totals, and date trends without manually adding data first.
-
-## Validation
-
-The application checks for invalid expense data before adding it.
-
-An expense will not be added if:
-
-* The category is blank
-* The amount is less than or equal to zero
-* The date is missing
-
-This helps prevent bad data from affecting the expense totals.
 
 ## How to Run Tests
 

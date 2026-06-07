@@ -16,6 +16,8 @@ class ExpenseServiceTest {
     @BeforeEach
     void beforeEach() {
         subject = new ExpenseService();
+        subject.clearExpense();
+
     }
 
     @Test

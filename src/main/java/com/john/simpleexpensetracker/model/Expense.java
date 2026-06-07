@@ -16,5 +16,4 @@ public class Expense {
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate date;
-
 }

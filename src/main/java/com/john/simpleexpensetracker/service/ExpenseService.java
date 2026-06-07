@@ -106,6 +106,10 @@ public class ExpenseService {
         return lowestCategory;
     }
 
+    public void clearExpense() {
+        expenses.clear();
+    }
+
 
     private void addSeedData() {
         expenses.add(new Expense("Food", 12.50, LocalDate.of(2026, 6, 1)));

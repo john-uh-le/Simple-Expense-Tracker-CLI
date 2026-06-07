@@ -2,14 +2,10 @@
 
 BASE_URL="http://localhost:8080/api/expenses"
 
-print_line() {
-    echo "--------------------------------------------------"
-}
-
 print_title() {
-    print_line
+    echo "--------------------------------------------------"
     echo "$1"
-    print_line
+    echo "--------------------------------------------------"
 }
 
 pretty_json() {
@@ -72,9 +68,9 @@ show_lowest_category() {
 
 while true
 do
-    print_line
+    echo "--------------------------------------------------"
     echo "Simple Expense Tracker CLI"
-    print_line
+    echo "--------------------------------------------------"
     echo "1. View all expenses"
     echo "2. Add new expense"
     echo "3. View total expense"
@@ -83,7 +79,7 @@ do
     echo "6. View highest category"
     echo "7. View lowest category"
     echo "0. Exit"
-    print_line
+    echo "--------------------------------------------------"
 
     echo "Choose an option:"
     read option
